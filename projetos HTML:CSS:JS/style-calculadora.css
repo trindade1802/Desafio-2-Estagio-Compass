@@ -1,0 +1,114 @@
+header{
+	background: #F9F6F5;
+
+}
+
+.caixa {
+	position: relative;
+	width:940px;
+	margin: 0 auto;
+}
+
+nav {
+	position:absolute;
+	top: 200px;
+	right:0;
+
+}
+
+nav li {
+	display:inline;
+	margin: 0 0 0 15px;
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+.paredes {
+	width: 940px;
+	margin: 40px 18% 40px;
+	padding: 20px 0;
+}
+
+.paredes li{
+	background-color: #F9F6F5;
+	display: inline-block;
+	width: 15%;
+	margin: 0 20px 0;
+	vertical-align: top;
+	padding: 20px 23px;
+	border: 2px solid #000000;
+	border-radius: 20px
+}
+
+#titulo-form {
+  font-weight: bold;
+	font-size: 25px;
+}
+
+label{
+	color: #555;
+	display: inline-grid;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.campo-medio{
+	display: block;
+}
+
+.grupo{
+	width: 32%;
+	display: block;
+	padding: 10px 0px;
+	margin: 20px 0 0
+}
+
+button{
+	padding: .3em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: 20px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: auto;
+  display: inline-block;
+  clear: both;
+}
+
+button:active{
+	margin-top:17px;
+	border: 0;
+}
+
+footer {
+  background: #F9F6F5;
+}
+
+.caixa-baixo {
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.logocinza{
+	padding: 0 30% 0;
+	position: relative;
+}
+
+.copyright{
+	display: inline-block;
+	position: relative;
+	padding: 0 245px 0;
+}
